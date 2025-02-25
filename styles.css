@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.tes-container {
+    width: 80%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.tes-container h3 {
+    margin-bottom: 15px;
+    color: #4CAF50;
+}
+
+.daftar-tes ul {
+    list-style: none;
+}
+
+.daftar-tes ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.daftar-tes ul li:last-child {
+    border-bottom: none;
+}
+
+.daftar-tes ul li span {
+    font-size: 18px;
+}
+
+.mulai-tes {
+    text-decoration: none;
+    color: white;
+    background-color: #4CAF50;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.mulai-tes:hover {
+    background-color: #45a049;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Pembungkus{
+    background-color: rgb(51, 49, 49);
+    text-align: center;
+}
+
+.Pembungkus ul{
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.Pembungkus ul li a{
+    text-decoration: none;
+}
+
+.Pembungkus ul li a{
+    color: aliceblue;
+}
+
+.home{
+    padding: 20px;
+}
+
+.home h1{
+    text-align: center;
+}
+body{
+    background-color: rgb(247, 247, 247);
+}
+
+.soal .soal1 label{
+    display: block;
+}
+
+.soal {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.soal1 p {
+    font-size: 18px;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+
+.soal1 label {
+    display: block;
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.soal1 input[type="radio"] {
+    margin-right: 8px;
+}
+
+button{
+    display: block;
+    width: 50%;
+    padding: 9px;
+    font-size: 18px;
+    color: white;
+    background-color: #3b3d3f;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    justify-content: start;
+    justify-items: start;
+}
+
+button:hover {
+    background-color: #05bd61;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.navigasi {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.ragu-ragu label {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #333;
+}
+
+.selanjutnya a {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.selanjutnya button:hover {
+    background-color: #0056b3;
+}
