@@ -66,11 +66,6 @@ header {
     background-color: #45a049;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-}
-
 .Pembungkus{
     background-color: rgb(51, 49, 49);
     text-align: center;
@@ -85,9 +80,6 @@ header {
 
 .Pembungkus ul li a{
     text-decoration: none;
-}
-
-.Pembungkus ul li a{
     color: aliceblue;
 }
 
@@ -98,6 +90,7 @@ header {
 .home h1{
     text-align: center;
 }
+
 body{
     background-color: rgb(247, 247, 247);
 }
@@ -115,13 +108,11 @@ body{
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-
 .soal1 p {
     font-size: 18px;
     color: #444;
     margin-bottom: 10px;
 }
-
 
 .soal1 label {
     display: block;
@@ -193,4 +184,50 @@ a{
 
 .selanjutnya button:hover {
     background-color: #0056b3;
+}
+
+.timer {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #333;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.result-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.result-container h2 {
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+.score {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.back-to-home {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.back-to-home:hover {
+    background-color: #45a049;
 }
